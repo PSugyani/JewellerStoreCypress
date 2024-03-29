@@ -1,0 +1,23 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:test": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypr": "cross-env CYPRESS_REMOTE_DEBUGGING_PORT=9222 cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "execTimout": 60000,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 10000,
+  "responseTimeout": 30000
+}

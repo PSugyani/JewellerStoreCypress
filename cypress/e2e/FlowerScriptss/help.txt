@@ -1,0 +1,12 @@
+install cypress
+npm install cypress --save-dev
+getting error than enter this cmd add node modules npm-init
+for execution spec file add in package.json "cypress:run": "cypress run",
+    "cypress:test": "cypress open",
+    for execution the file in terminal npm run cypress:test
+
+    for adding xpath plugin
+    npm i cypress-xpath
+    add in support index.js one include in your project's support file
+
+require('cypress-xpath');
